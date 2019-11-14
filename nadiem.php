@@ -10,7 +10,7 @@ $headers[] = 'Content-Type: application/json';
 $headers[] = 'X-AppVersion: 3.27.0';
 $headers[] = "X-Uniqueid: ac94e5d0e7f3f".rand(111,999);
 $headers[] = 'X-Location: -6.405821,106.064193';
-		echo "[+] Nomer Yang Ingin Di Claim : ";
+		echo "[+] Masukan nomor loh pantek  : ";
 		$number = trim(fgets(STDIN));
 		$numbers = $number[0].$number[1];
 		$numberx = $number[5];
@@ -95,12 +95,12 @@ $headers[] = 'X-Location: -6.405821,106.064193';
 						echo $claims5->data->message."\n";
 					}
 		}else{
-			echo "Verifikasi gagal\n";
+			echo "dah gagal ganti lah\n";
 		} 
 												
 							
 	}else{
-		echo "Nomor udah dipake\n";
+		echo "Pantek Cari nomor lain bangsat\n";
 	}
 	function nama()
 	{
